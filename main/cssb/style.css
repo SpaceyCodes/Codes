@@ -95,6 +95,19 @@ main {
     padding-right: 1rem;
     padding-left: 1rem;
 }
+#end {
+    padding: 1.5rem;
+    text-align: center;
+    background: #eee;
+    color: #333;
+}
+#end h10 {
+    border-left: dotted 1px #333;
+    border-right: dotted 1px #333;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
 .caption {
     padding: 0.8rem;
     text-align: center;
