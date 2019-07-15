@@ -5,7 +5,7 @@ html {
 body {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
-    background: #eee;
+    background: #333;
     height: auto;
 }
 
@@ -52,9 +52,9 @@ main {
 }
 
 .btn{
-    background: #fff;
+    background: #eee;
     padding: 0.5rem 2rem;
-    border: 1px #ccc solid;
+    border: 1px #eee solid;
     display: inline-block;
     margin: 2rem 0 0;
     border-radius: 50px;
@@ -62,26 +62,11 @@ main {
     color: #333;
     transition: background 500ms ease;
 }
-.btnb{
-    background: #fff;
-    padding: 0.5rem 2rem;
-    border: 1px #ccc solid;
-    display: inline-block;
-    margin: 2rem 0 0;
-    border-radius: 50px;
-    text-decoration: none;
-    color: #333;
-    transition: background 500ms ease;
-}
-
 
 .btn:hover {
-    background: #f4f4f4;
+    background: #cecece;
 }
 
-.abt:hover {
-    background: #f4f4f4;
-}
 #header {
     padding: 1.5rem;
     text-align: center;
@@ -98,22 +83,23 @@ main {
 #end {
     padding: 1.5rem;
     text-align: center;
-    background: #eee;
-    color: #333;
+    background: #333;
+    color: #eee;
 }
 #end h10 {
-    border-left: dotted 1px #333;
-    border-right: dotted 1px #333;
+    border-left: dotted 1px #eee;
+    border-right: dotted 1px #eee;
     display: inline-block;
     padding-right: 1rem;
     padding-left: 1rem;
 }
 .caption {
+    color: #eee;
     padding: 0.8rem;
     text-align: center;
 }
 main h3{
-    border-bottom: dotted 2px #333;
+    border-bottom: dotted 2px #eee;
     display: inline;
     padding-left: 0.1rem;
     padding-right: 0.1rem;

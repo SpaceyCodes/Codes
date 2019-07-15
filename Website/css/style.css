@@ -5,18 +5,20 @@ html {
 body {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
-    background: #eee;
+    background: #333;
     height: auto;
 }
 
 h1 {
     font-weight: 400;
+    color: #eee;
     font-size: 2.5rem;
     text-transform: uppercase;
     margin: 0;
 }
 h2 {
     font-weight: 400;
+    color: #eee;
     font-size: 1.2rem;
     text-transform: capitalize;
     margin: 0
@@ -32,7 +34,7 @@ main {
     -30px 0px 40px rgba(0, 0, 0, 0.2);
 }
 #landing {
-    background: #fff;
+    background: #333;
 }
 #landing-text {
     display: flex;
@@ -56,17 +58,8 @@ main {
 }
 .btn{
     padding: 0.5rem 2rem;
-    border: 1px #ccc solid;
-    display: inline-block;
-    margin: 2rem 0 0;
-    border-radius: 50px;
-    text-decoration: none;
-    color: #333;
-    transition: background 500ms ease;
-}
-.abt{
-    padding: 0.5rem 2rem;
-    border: 1px #ccc solid;
+    background-color: #eee;
+    border: 1px #eee solid;
     display: inline-block;
     margin: 2rem 0 0;
     border-radius: 50px;
@@ -75,11 +68,9 @@ main {
     transition: background 500ms ease;
 }
 .btn:hover {
-    background: #f4f4f4;
+    background: #cecece;
 }
-.abt:hover {
-    background: #f4f4f4;
-}
+
 #header {
     padding: 1.5rem;
     text-align: center;
@@ -102,11 +93,11 @@ footer {
     text-align: center;
     padding: 2rem 1rem;
     margin: auto;
-    color:  #333;
+    color:  white;
 }
 footer h4 {
     font-size: 2rem;
-    border-bottom: solid 2px #333;
+    border-bottom: solid 2px white;
     display: inline;
     padding-left: 0.1rem;
     padding-right: 0.1rem;
