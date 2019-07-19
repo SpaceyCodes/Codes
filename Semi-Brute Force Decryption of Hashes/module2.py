@@ -1,7 +1,7 @@
 import hashlib
-passwd = {1:hashlib.sha3_512('qwerty'.encode()).hexdigest()}
+passwd = {1:hashlib.sha3_512('mafia13'.encode()).hexdigest()}
 data = []
-with open("/WEN KANG/Coding/source/repos/hashed passwords/pass.txt","r", errors='ignore') as f:
+with open("/WEN KANG/Coding/source/repos/Semi-Brute Force Decryption of Hashes/pass.txt","r", errors='ignore') as f:
     data = f.readlines()
 def start():
     x = 0
