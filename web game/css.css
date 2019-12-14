@@ -1,0 +1,16 @@
+.middlecontainer {
+    width: 90%;
+    margin: auto;
+}
+.boxcontainer{
+    display: flex;
+    justify-content: center;
+}
+.box {
+    height: 28px;
+    width: 28px;
+    border: 1px solid black;
+}
+#id25 {
+    background-color: red;
+}
