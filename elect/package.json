@@ -1,0 +1,14 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "wk",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.0.1"
+  }
+}

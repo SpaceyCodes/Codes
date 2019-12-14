@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: #eee;
+    overflow: hidden;
+}
+* :-webkit-scrollbar {
+    display: none;
+}
+.clear {
+    padding: 10;
+}
+.topbar {
+    padding: 10px;
+    -webkit-app-region: drag;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+}
+.nameicon {
+    position: absolute;
+    left: 10px;
+    top: 45%;
+    transform: translate(0, -45%);
+}
+.nameicon h1 {
+    background-color: #333;
+    font-size: 19px;
+    color: rgb(156, 156, 156);
+    font-weight: 200;
+    font-family: 'ZCOOL QingKe HuangYou';
+}
+.buttons{
+    -webkit-app-region: no-drag;
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    transform: translate(-13px, -50%);
+}
+.container {
+    -webkit-app-region: drag;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+}
+.button {
+    -webkit-app-region: no-drag;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+.button:hover{
+    cursor: pointer;
+}
+#button1 {
+    background-color: greenyellow;
+}
+#button2 {
+    background-color: aqua;
+}
+#button3 {
+    background-color: red;
+}
