@@ -9,6 +9,6 @@
   "author": "wk",
   "license": "ISC",
   "dependencies": {
-    "electron": "^7.0.1"
+    "electron": "^9.4.0"
   }
 }
